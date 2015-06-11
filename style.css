@@ -1,0 +1,243 @@
+/*For extra small device*/
+
+@media(min-width:120px) and (max-width:767px) {
+	.header {
+		min-height: 123px;
+		border: 2px solid black;
+	}
+	.circle {
+		border: 2px solid black;
+		min-height: 60px;
+		width: 60px;
+		border-radius: 30px;
+		margin-top: 29px;
+	}
+	.rect {
+		min-height: 80px;
+		border: 2px solid black;
+		margin-top: 18px;
+	}
+	.body {
+		min-height: 1224px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+	.body_one {
+		margin-top: 16px;
+		min-height: 189px;
+		border: 2px solid black;
+	}
+	.body_two {
+		margin-top: 19px;
+		min-height: 109px;
+		border: 2px solid black;
+	}
+	.body_three {
+		margin-top: 16px;
+		min-height: 110px;
+		border: 2px solid black;
+	}
+	.body_four {
+		margin-top: 18px;
+		min-height: 188px;
+		border: 2px solid black;
+	}
+	.body_five {
+		min-height: 190px;
+		margin-top: 18px;
+		border: 2px solid black
+	}
+	.body_six {
+		margin-top: 18px;
+		min-height: 109px;
+		border: 2px solid black
+	}
+	.body_seven {
+		min-height: 45px;
+		border: 2px solid black;
+		margin-top: 36px;
+	}
+	.body_eight {
+		min-height: 110px;
+		border: 2px solid black;
+		margin-top: 14px;
+	}
+	.footer {
+		min-height: 60px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+	.pad-top {
+		margin-top: 5px;
+	}
+	.pad-bot {
+		margin-bottom: 5px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+}
+/*For small device*/
+
+@media(min-width:768px) and (max-width:991px) {
+	.header {
+		min-height: 123px;
+		border: 2px solid black;
+	}
+	.circle {
+		border: 2px solid black;
+		min-height: 60px;
+		width: 60px;
+		border-radius: 30px;
+		margin-top: 29px;
+	}
+	.rect {
+		min-height: 80px;
+		border: 2px solid black;
+		margin-top: 18px;
+	}
+	.body {
+		min-height: 1223px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+	.body_one {
+		margin-top: 16px;
+		min-height: 189px;
+		border: 2px solid black;
+	}
+	.body_two {
+		margin-top: 19px;
+		min-height: 109px;
+		border: 2px solid black;
+	}
+	.body_three {
+		margin-top: 16px;
+		min-height: 110px;
+		border: 2px solid black;
+	}
+	.body_four {
+		margin-top: 18px;
+		min-height: 188px;
+		border: 2px solid black;
+	}
+	.body_five {
+		min-height: 190px;
+		margin-top: 18px;
+		border: 2px solid black
+	}
+	.body_six {
+		margin-top: 18px;
+		min-height: 109px;
+		border: 2px solid black
+	}
+	.body_seven {
+		min-height: 45px;
+		border: 2px solid black;
+		margin-top: 36px;
+	}
+	.body_eight {
+		min-height: 110px;
+		border: 2px solid black;
+		margin-top: 14px;
+	}
+	.footer {
+		min-height: 60px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+	.pad-top {
+		margin-top: 5px;
+	}
+	.pad-bot {
+		margin-bottom: 5px;
+	}
+	.left+.right {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+/*For large Device*/
+
+@media(min-width:992px) {
+	.header {
+		min-height: 123px;
+		border: 2px solid black;
+	}
+	.circle {
+		border: 2px solid black;
+		min-height: 100px;
+		width: 100px;
+		border-radius: 50px;
+		margin-top: 8px;
+	}
+	.rect {
+		height: 80px;
+		border: 2px solid black;
+		margin-top: 18px;
+	}
+	.body {
+		min-height: 350px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+	.body_one {
+		margin-top: 16px;
+		min-height: 189px;
+		border: 2px solid black;
+	}
+	.body_two {
+		margin-top: 19px;
+		min-height: 109px;
+		border: 2px solid black;
+	}
+	.body_three {
+		margin-top: 16px;
+		min-height: 110px;
+		border: 2px solid black;
+	}
+	.body_four {
+		margin-top: 18px;
+		min-height: 188px;
+		border: 2px solid black;
+	}
+	.body_five {
+		min-height: 190px;
+		margin-top: 18px;
+		border: 2px solid black
+	}
+	.body_six {
+		margin-top: 18px;
+		min-height: 109px;
+		border: 2px solid black
+	}
+	.body_seven {
+		min-height: 45px;
+		border: 2px solid black;
+		margin-top: 36px;
+	}
+	.body_eight {
+		min-height: 110px;
+		border: 2px solid black;
+		margin-top: 14px;
+	}
+	.pad-right {
+		padding-right: 0px;
+	}
+	.footer {
+		min-height: 60px;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+		border-top: none;
+	}
+}
